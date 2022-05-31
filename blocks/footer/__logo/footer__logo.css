@@ -1,0 +1,6 @@
+.footer__logo {
+    width: 310px;
+    height: 125px;
+    object-fit: contain;
+    box-sizing: border-box;
+}

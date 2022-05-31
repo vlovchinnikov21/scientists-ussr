@@ -1,5 +1,5 @@
-@import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
 
 /* Page */
 
@@ -22,6 +22,7 @@
 @import url(../blocks/page-container/page-container.css);
 @import url(../blocks/physics/physics.css);
 @import url(../blocks/physics/__header/physics__header.css);
+@import url(../blocks/physics/__span-accent/physics__span-accent.css);
 @import url(../blocks/physics/__name/physics__name.css);
 @import url(../blocks/physics/__grid/physics__grid.css);
 @import url(../blocks/physics/__grid-description/physics__grid-description.css);
@@ -37,3 +38,16 @@
 @import url(../blocks/fact/__text-box/fact__text-box.css);
 @import url(../blocks/fact/__heading/fact__heading.css);
 @import url(../blocks/fact/__description/fact__description.css);
+
+/* Footer */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__social-text/footer__social-text.css);
+@import url(../blocks/footer/__social-links/footer__social-links.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__adresse/footer__adresse.css);
+@import url(../blocks/footer/__adresse-head/footer__adresse-head.css);
+@import url(../blocks/footer/__adresse-text/footer__adresse-text.css);
