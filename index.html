@@ -3,36 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Document</title>
   </head>
   <body class="body">
-    <div class="page">
-      <header class="header">
-        <nav class="menu">
-            <div class="header__logo-container">
-              <img
-                src="./images/main-logo.svg"
-                alt="лого"
-                class="header__logo"
-              />
-              <p class="header__heading">Soviet&nbsp;Physics</p>
-            </div>
-            <p class="menu__element">Домой</p>
-            <p class="menu__element">Каталог</p>
-            <p class="menu__element">Статистика</p>
-            <p class="menu__element">О&nbsp;проекте</p>
-            <div class="header__buttons">
-              <button type="button" class="menu__find">Найти</button>
-              <div class="header__lang-container">
-                <img src="./images/ru-flag.svg" alt="рус" class="header__lang" />
-                <img src="./images/en-flag.svg" alt="англ" class="header__lang" />
-              </div>
-            </div>
-        </nav>
-      </header>
-      <main class="page-container"></main>
-      <footer class="footer"></footer>
-    </div>
+    <header class="header">
+      <nav class="menu">
+        <div class="header__logo-container">
+          <img src="./images/main-logo.svg" alt="лого" class="header__logo" />
+          <p class="header__heading">Soviet&nbsp;Physics</p>
+        </div>
+        <p class="menu__element">Домой</p>
+        <p class="menu__element">Каталог</p>
+        <p class="menu__element">Статистика</p>
+        <p class="menu__element">О&nbsp;проекте</p>
+        <div class="header__buttons">
+          <button type="button" class="menu__find">Найти</button>
+          <div class="header__lang-container">
+            <img src="./images/ru-flag.svg" alt="рус" class="header__lang" />
+            <img src="./images/en-flag.svg" alt="англ" class="header__lang" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="page-container">
+      <section class="physics">
+        <div class="physics__heading">
+          <h1 class="physics__header">
+            Молодежь смотрит на мир глазами своих
+            <span class="physics__span-accent">кумиров.</span>
+          </h1>
+          <p class="physics__name">Вильгельм Швебель</p>
+        </div>
+        <div class="physics__grid">
+          <img
+            src="./images/petr-capitsa.jpg"
+            alt="петр капица"
+            class="physics__img"
+          />
+          <img
+            src="./images/vitaliy-ginsburg-one.jpg"
+            alt="жидкий гелий"
+            class="physics__img"
+          />
+          <img
+            src="./images/lev-landau.jpg"
+            alt="лев ландау"
+            class="physics__img"
+          />
+          <div class="physics__grid-description">
+            <h2 class="physics__grid-heading">Петр Капица</h2>
+            <p class="physics__grid-text">
+              За его базовые исследования и открытия в физике низких температур
+            </p>
+          </div>
+          <div class="physics__grid-description">
+            <h2 class="physics__grid-heading">Виталий Гинзбург</h2>
+            <p class="physics__grid-text">
+              За создание теории сверхпроводимости второго рода и теории
+              сверхтекучести жидкого гелия-3
+            </p>
+          </div>
+          <div class="physics__grid-description">
+            <h2 class="physics__grid-heading">Лев Ландау</h2>
+            <p class="physics__grid-text">
+              За его пионерские теории конденсированных сред и особенно жидкого
+              гелия
+            </p>
+          </div>
+          <img
+            src="./images/petr-capitsa-one.jpg"
+            alt="ликвид"
+            class="physics__img"
+          />
+          <img
+            src="./images/vitaliy-ginsburg.jpg"
+            alt="виталий гинзбург"
+            class="physics__img"
+          />
+          <img
+            src="./images/lev-landau-one.jpg"
+            alt="гелий"
+            class="physics__img"
+          />
+        </div>
+      </section>
+      <section class="fact">
+        <div class="fact__container">
+          <img src="./images/fact-img.jpg" alt="факт" class="fact__image">
+          <div class="fact__text-box">
+            <h3 class="fact__heading">Интересный факт:</h3>
+            <p class="fact__description">Лупа получил за Пупу, а Пупа за Лупу.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
   </body>
 </html>

@@ -1,0 +1,7 @@
+.fact__container {
+  padding: 0 95px 0;
+  max-width: 1680px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}

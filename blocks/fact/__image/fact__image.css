@@ -1,0 +1,4 @@
+.fact__image {
+  object-fit: cover;
+  box-sizing: border-box;
+}

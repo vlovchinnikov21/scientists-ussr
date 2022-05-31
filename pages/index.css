@@ -3,8 +3,9 @@
 
 /* Page */
 
+/* Header */
+
 @import url(../blocks/body/body.css);
-@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo-container/header__logo-container.css);
 @import url(../blocks/header/__heading/header__heading.css);
@@ -15,3 +16,24 @@
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__find/menu__find.css);
 @import url(../blocks/menu/__element/menu__element.css);
+
+/* Physics */
+
+@import url(../blocks/page-container/page-container.css);
+@import url(../blocks/physics/physics.css);
+@import url(../blocks/physics/__header/physics__header.css);
+@import url(../blocks/physics/__name/physics__name.css);
+@import url(../blocks/physics/__grid/physics__grid.css);
+@import url(../blocks/physics/__grid-description/physics__grid-description.css);
+@import url(../blocks/physics/__grid-heading/physics__grid-heading.css);
+@import url(../blocks/physics/__grid-text/physics__grid-text.css);
+@import url(../blocks/physics/__img/physics__img.css);
+
+/* Fact */
+
+@import url(../blocks/fact/fact.css);
+@import url(../blocks/fact/__container/fact__container.css);
+@import url(../blocks/fact/__image/fact__image.css);
+@import url(../blocks/fact/__text-box/fact__text-box.css);
+@import url(../blocks/fact/__heading/fact__heading.css);
+@import url(../blocks/fact/__description/fact__description.css);

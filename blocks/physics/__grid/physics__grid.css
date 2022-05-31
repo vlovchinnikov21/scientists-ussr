@@ -1,0 +1,10 @@
+.physics__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 13px;
+  width: 800px;
+  max-height: 750px;
+  margin-top: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
