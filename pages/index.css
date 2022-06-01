@@ -38,6 +38,18 @@
 @import url(../blocks/fact/__text-box/fact__text-box.css);
 @import url(../blocks/fact/__heading/fact__heading.css);
 @import url(../blocks/fact/__description/fact__description.css);
+@import url(../blocks/fact/__description/_position/fact__description_position.css);
+@import url(../blocks/fact/__text-box/_position/fact__text-box_position.css);
+
+/* Article */
+
+@import url(../blocks/article/article.css);
+@import url(../blocks/article/__element/article__element.css);
+@import url(../blocks/article/__text-box/article__text-box.css);
+@import url(../blocks/article/__img/article__img.css);
+@import url(../blocks/article/__head/article__head.css);
+@import url(../blocks/article/__text/article__text.css);
+@import url(../blocks/article/__info/article__info.css);
 
 /* Footer */
 

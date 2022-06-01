@@ -1,0 +1,7 @@
+.article__img {
+    margin: 60px 0 15px;
+    width: 550px;
+    height: 320px;
+    object-fit: fill;
+    box-sizing: border-box;
+}
