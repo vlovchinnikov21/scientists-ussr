@@ -1,3 +1,7 @@
 .article__info_showed {
-  display: flex;
+  max-height: none;
+  visibility: visible;
+  padding: 45px 22px 56px;
+  opacity: 1;
+  transition: all 0.2s;
 }

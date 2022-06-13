@@ -10,7 +10,7 @@
   border-radius: 30px;
   padding: 7px 0 7px;
   cursor: pointer;
-  transition: 0.4s;
+  transition: all 0.2s;
   margin-left: 20px;
 }
 
