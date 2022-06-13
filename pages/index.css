@@ -45,11 +45,16 @@
 
 @import url(../blocks/article/article.css);
 @import url(../blocks/article/__element/article__element.css);
+@import url(../blocks/article/__container/article__container.css);
 @import url(../blocks/article/__text-box/article__text-box.css);
 @import url(../blocks/article/__img/article__img.css);
 @import url(../blocks/article/__head/article__head.css);
 @import url(../blocks/article/__text/article__text.css);
+@import url(../blocks/article/__info-button/article__info-button.css);
 @import url(../blocks/article/__info/article__info.css);
+@import url(../blocks/article/__text-box/_width/arcticle__text-box.css);
+@import url(../blocks/article/__info/_showed/article__info_showed.css);
+@import url(../blocks/article/__info-button/_showed/article__info-button_showed.css);
 
 /* Footer */
 

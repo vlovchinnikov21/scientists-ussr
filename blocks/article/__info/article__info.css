@@ -1,18 +1,8 @@
 .article__info {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 1.3;
-    background-color: #ebebeb;
-    text-align: center;
-    width: 334px;
-    border-radius: 30px;
-    padding: 7px 0 7px;
-    cursor: pointer;
-    transition: .4s;
-}
-
-.article__info:hover {
-    opacity: .6;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ebebeb;
+  padding: 45px 22px 56px;
+  border-radius: 23px;
 }
