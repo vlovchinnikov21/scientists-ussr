@@ -1,0 +1,7 @@
+.article__image-box {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 0 36px;
+  display: flex;
+  align-items: center;
+}

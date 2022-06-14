@@ -1,12 +1,8 @@
 .article__info {
-  visibility: hidden;
-  max-height: 0;
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: space-between;
   background-color: #ebebeb;
-  padding: 0;
+  padding: 45px 22px 56px;
   border-radius: 23px;
-  transition: all 0.1s;
-  opacity: 0;
 }

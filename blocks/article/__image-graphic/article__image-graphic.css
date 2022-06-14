@@ -1,0 +1,6 @@
+.article__image-graphic {
+    width: 746px;
+    height: 435px;
+    object-fit: contain;
+    box-sizing: border-box;
+}

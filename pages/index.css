@@ -68,3 +68,15 @@
 @import url(../blocks/footer/__adresse/footer__adresse.css);
 @import url(../blocks/footer/__adresse-head/footer__adresse-head.css);
 @import url(../blocks/footer/__adresse-text/footer__adresse-text.css);
+
+/* Article-graphics */
+
+@import url(../blocks/article/__graphics/article__graphics.css);
+@import url(../blocks/article/__graphics-container/article__graphics-container.css);
+@import url(../blocks/article/__buttons/article__buttons.css);
+@import url(../blocks/article/__graphic-button/article__graphic-button.css);
+@import url(../blocks/article/__graphic-button-text/article__graphic-button-text.css);
+@import url(../blocks/article/__image-box/article__image-box.css);
+@import url(../blocks/article/__image-graphic/article__image-graphic.css);
+@import url(../blocks/article/__graphic-info/article__graphic-info.css);
+@import url(../blocks/article/__graphic-text/article__graphic-text.css);
